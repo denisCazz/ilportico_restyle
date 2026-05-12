@@ -5,13 +5,13 @@ import { useRef } from "react";
 import { MapPin, Phone, Clock, MessageCircle } from "lucide-react";
 
 const hours = [
-  { day: "Lunedì", time: "Chiuso" },
-  { day: "Martedì", time: "9:00 – 22:00" },
-  { day: "Mercoledì", time: "9:00 – 22:00" },
-  { day: "Giovedì", time: "9:00 – 2:00" },
-  { day: "Venerdì", time: "9:00 – 2:00" },
-  { day: "Sabato", time: "9:00 – 2:00" },
-  { day: "Domenica", time: "9:00 – 22:00" },
+  { day: "Lunedì", time: "7:30 – 24:00" },
+  { day: "Martedì", time: "Chiuso" },
+  { day: "Mercoledì", time: "7:30 – 24:00" },
+  { day: "Giovedì", time: "7:30 – 24:00" },
+  { day: "Venerdì", time: "7:30 – 2:00" },
+  { day: "Sabato", time: "7:30 – 2:00" },
+  { day: "Domenica", time: "8:30 – 24:00" },
 ];
 
 const today = new Date().toLocaleDateString("it-IT", { weekday: "long" });

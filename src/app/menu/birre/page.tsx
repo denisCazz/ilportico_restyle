@@ -26,9 +26,21 @@ export default function Birre() {
           <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
             Birre & Vini
           </h1>
-          <p className="mt-6 text-neutral-500 text-sm leading-relaxed max-w-xs">
-            Menu in aggiornamento.<br />Chiedi al bancone la lista completa.
-          </p>
+          <ul className="mt-8 flex flex-col gap-3">
+            {[
+              "Beck's",
+              "Corona",
+              "Tennent's",
+              "Heineken",
+              "Ichnusa non filtrata",
+              "Corona alcool free",
+            ].map((birra) => (
+              <li key={birra} className="flex items-center gap-3 text-white text-sm border-b border-white/[0.06] pb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-neutral-600 flex-shrink-0" />
+                {birra}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
       <Footer />

@@ -11,11 +11,11 @@ const navLinks = [
 ];
 
 const hours = [
-  { day: "Lunedì", time: "Chiuso" },
-  { day: "Mar – Mer", time: "9:00 – 22:00" },
-  { day: "Gio – Ven", time: "9:00 – 2:00" },
-  { day: "Sabato", time: "9:00 – 2:00" },
-  { day: "Domenica", time: "9:00 – 22:00" },
+  { day: "Lunedì", time: "7:30 – 24:00" },
+  { day: "Martedì", time: "Chiuso" },
+  { day: "Mer – Gio", time: "7:30 – 24:00" },
+  { day: "Ven – Sab", time: "7:30 – 2:00" },
+  { day: "Domenica", time: "8:30 – 24:00" },
 ];
 
 export default function Footer() {
